@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   font-family: "Vazirmatn", sans-serif;
+  margin: 0;
 }
 
 /* ////////////////////////////////            Unique                ////////////////////////////// */
@@ -22,7 +23,7 @@
   margin: 0 auto;
 }
 .logo {
-    margin: 28px 108px;
+  margin: 28px 108px;
 }
 
 /* list */
@@ -37,6 +38,7 @@ nav ul li a {
 
 nav ul li a:hover {
   border-bottom: 1px solid #1d91cc;
+  border-radius: 1px;
 }
 
 nav > ul {
@@ -54,4 +56,60 @@ nav > ul {
   padding: 8px 16px;
   border-radius: 8px;
   cursor: pointer;
+}
+
+/* ////////////////////////////////            Slider                ////////////////////////////// */
+
+.slider {
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* Search Buttons  */
+
+.buttons {
+  margin: 24px 0;
+}
+
+.searchbox {
+  margin: 0 auto;
+  padding: 20px;
+  top: -90px;
+  position: relative;
+  max-width: 1226px;
+  height: 191px;
+  background-color: rgb(255, 255, 255);
+  z-index: 2;
+  border: 1px solid #ededed;
+  border-radius: 8px;
+  box-shadow: 0px 8px 16px 0px #00000014;
+}
+
+.searchform-button {
+  background-color: white;
+  color: #606060;
+  border-radius: 8px;
+  border: 1px solid #1774a3;
+  width: 98px;
+  height: 40px;
+  cursor: pointer;
+}
+
+#button-hover {
+  background-color: #1d91cc;
+  color: #ffffff;
+}
+
+.box-input{
+    margin-top: 30px;
+    margin: 24px auto;
+}
+main .searchbox .box-input input{
+    width: 180px;
+    height: 48px;
+    border-radius: 8px;
+    
+}
+input{
+    gap: 30px;
 }
