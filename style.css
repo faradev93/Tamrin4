@@ -25,6 +25,7 @@ ul li {
 /* ////////////////////////////////            Container                ////////////////////////////// */
 
 .container {
+  max-width: 1368px;
 }
 
 .logo {
@@ -40,10 +41,21 @@ nav > ul {
   margin: 0;
   gap: 38px;
   display: flex;
+  
 }
 
 nav > ul > li:hover {
   border-bottom: 1px solid #1d91cc;
+  color: #1d91cc;
+}
+
+nav > ul > li{
+  color: #606060;
+}
+
+nav>>ul>li>a{
+  padding: 6px 0;
+  color:#606060;
 }
 
 .container > .logo > a > img {
@@ -51,6 +63,8 @@ nav > ul > li:hover {
 }
 .support {
   margin: 32px;
+  color: #606060;
+
 }
 .sign-user{
   background-color: #1d91cc;
@@ -59,4 +73,11 @@ nav > ul > li:hover {
   border: none;
   gap: 8px;
   cursor: pointer;
+}
+
+/* ////////////////////////////////            Main[Slide]                ////////////////////////////// */
+
+.slide{
+  margin: 0px;
+  padding: 0px;
 }

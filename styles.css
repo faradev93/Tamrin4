@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  font-family: "Vazirmatn", sans-serif;
+}
+
+/* ////////////////////////////////            Unique                ////////////////////////////// */
+
+.flex {
+  display: flex;
+}
+
+.item-center {
+  align-items: center;
+}
+.justify-content {
+  justify-content: space-between;
+}
+/* ////////////////////////////////            Header                ////////////////////////////// */
+
+.container {
+  max-width: 1226px;
+  margin: 0 auto;
+}
+.logo {
+    margin: 28px 108px;
+}
+
+/* list */
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  color: #606060;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  border-bottom: 1px solid #1d91cc;
+}
+
+nav > ul {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  gap: 32px;
+}
+
+/* button sign in */
+.sign {
+  border: none;
+  background-color: #1d91cc;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
