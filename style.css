@@ -1,0 +1,62 @@
+* {
+  direction: rtl;
+  font-family: "Vazirmatn", sans-serif;
+  box-sizing: border-box;
+}
+/* ////////////////////////////////            Unique                ////////////////////////////// */
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+.flex {
+  display: flex;
+}
+.item-center {
+  align-items: center;
+}
+.justify-between{
+  justify-content: space-around;
+}
+/* ////////////////////////////////            Header                ////////////////////////////// */
+/* ////////////////////////////////            Container                ////////////////////////////// */
+
+.container {
+}
+
+.logo {
+  margin: 28px 108px;
+}
+
+nav {
+  margin: 32px 0;
+}
+
+nav > ul {
+  padding: 0;
+  margin: 0;
+  gap: 38px;
+  display: flex;
+}
+
+nav > ul > li:hover {
+  border-bottom: 1px solid #1d91cc;
+}
+
+.container > .logo > a > img {
+  margin-left: 60px;
+}
+.support {
+  margin: 32px;
+}
+.sign-user{
+  background-color: #1d91cc;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  gap: 8px;
+  cursor: pointer;
+}
