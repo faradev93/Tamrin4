@@ -26,7 +26,7 @@
   margin: 0 auto;
 }
 .logo {
-  margin: 28px 108px;
+  margin: 28px;
 }
 
 /* list */
@@ -195,25 +195,33 @@ input {
 
 /* ////////////////////////////////            Below Advantage                ////////////////////////////// */
 
-hr{
-  border: 1px solid #EDEDED;
-  color: #EDEDED;
+hr {
+  border: 1px solid #ededed;
+  color: #ededed;
 }
-.mofidText{
+.mofidText {
   font-size: 20px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
 }
-.test{
+.links {
   display: flex;
 }
-ul li{
+ul li {
   list-style: none;
 }
-a{
+a {
   text-decoration: none;
 }
-ul li a:hover{
+ul li a:hover {
   text-decoration: dashed;
+}
+.logo2 {
+  margin: 28px;
+}
+@media screen and (max-width: 700px) {
+  body{
+    background-color: red;
+  }
 }
