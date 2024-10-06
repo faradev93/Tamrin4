@@ -167,6 +167,7 @@ input {
   flex-direction: row;
   align-items: baseline;
   justify-content: space-around;
+  max-width: 1226px;
   top: 24px;
 }
 .info .info-text > p {
@@ -199,29 +200,29 @@ hr {
   border: 1px solid #ededed;
   color: #ededed;
 }
-.mofidText {
-  font-size: 20px;
+
+.more-info {
+  max-width: 1226px;
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
+  margin-top: 32px;
 }
-.links {
-  display: flex;
+.more-info > img {
+  display: block;
 }
-ul li {
-  list-style: none;
+
+.useful-link{
 }
+
 a {
   text-decoration: none;
 }
-ul li a:hover {
-  text-decoration: dashed;
+ul {
+  list-style: none;
 }
-.logo2 {
-  margin: 28px;
-}
+
+/* ////////////////////////////////            Responsive                ////////////////////////////// */
 @media screen and (max-width: 700px) {
-  body{
+  body {
     background-color: red;
   }
 }
